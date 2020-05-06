@@ -3,14 +3,18 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 module.exports = {
   entry: {
-    index: './index.js'
+    index: './src/index.jsx'
   },
-  mode: 'production',
+  mode: 'development',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js',
+    filename: '[name].min.js',
+    libraryExport: 'default',
     library: 'qrender-react',
-    libraryTarget: 'commonjs2'
+    libraryTarget: 'umd'
+  },
+  externals: {
+    react: 'react'
   },
   module: {
     rules: [

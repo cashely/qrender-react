@@ -19,7 +19,7 @@ class QRender extends React.Component {
 
   render() {
     return (
-      <div ref={this.state.wrapper}>qrender</div>
+      <div ref={this.state.wrapper}></div>
     )
   }
 }

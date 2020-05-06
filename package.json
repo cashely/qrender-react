@@ -1,8 +1,8 @@
 {
   "name": "qrender-react",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "基于qrcode的二维码生成组件-react版本",
-  "main": "dist/index.js",
+  "main": "dist/index.min.js",
   "scripts": {
     "test": "npm run test",
     "dev": "webpack-dev-server",
