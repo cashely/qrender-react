@@ -1,0 +1,45 @@
+{
+  "name": "qrender-react",
+  "version": "0.0.1",
+  "description": "基于qrcode的二维码生成组件-react版本",
+  "main": "src/index.jsx",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cashely/qrender-react.git"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "keywords": [
+    "qrender",
+    "qrender-js",
+    "react"
+  ],
+  "author": "cashely.shi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cashely/qrender-react/issues"
+  },
+  "homepage": "https://github.com/cashely/qrender-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "qrender-js": "0.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
