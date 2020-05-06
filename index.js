@@ -6,7 +6,7 @@ import QRender from './src/index.jsx'
 function App(props) {
   return (
     <div>
-      <QRender text="1212" background="yellow"/>
+      <QRender text="1212"/>
     </div>
   )
 }
